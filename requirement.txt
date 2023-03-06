@@ -1,0 +1,10 @@
+plotly
+collections
+nltk 
+datetime
+matplotlib.pyplot
+seaborn
+os
+PIL
+wordcloud
+empiricaldist
