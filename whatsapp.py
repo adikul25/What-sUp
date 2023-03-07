@@ -77,7 +77,7 @@ def parse_chat_file(file):
         else:
             messageBuffer.append(line)
     df = pd.DataFrame(parsedData, columns=["Date", "Time", "Author", "Message"])
-    df["Date"] = pd.to_datetime(df["Date"], format="%d/%m/%Y")
+    #df["Date"] = pd.to_datetime(df["Date"], format="%d/%m/%Y")
 
     return df
 
